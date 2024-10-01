@@ -13,6 +13,8 @@ Funktioner inkluderer:
 
 Perfekt for alle, der vil udforske eller løse trekant-relaterede geometriopgaver i forbindelse med skole- eller universitetsarbejde!
 
+https://arosansb.github.io/Trekant-Beregner/
+
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 English
 Trekant Beregner is a user-friendly and efficient tool that helps you calculate the sides and angles of any triangle. 
@@ -28,3 +30,5 @@ Features include:
 - Easy and intuitive interface for quick calculations.
 
 Perfect for anyone looking to explore or solve triangle-related geometry problems for school or university work!
+
+https://arosansb.github.io/Trekant-Beregner/
