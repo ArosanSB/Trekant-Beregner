@@ -309,3 +309,19 @@ function trueLength(arr) {
     }
     return n;
 }
+
+// Dark mode switch
+function switchMode() {
+    const body = document.body;
+    const button = document.getElementById('toggleMode');
+
+    // Toggle dark-mode class on the body
+    body.classList.toggle('dark-mode');
+
+    // Change button text depending on the mode
+    if (body.classList.contains('dark-mode')) {
+        button.textContent = 'Switch to Light Mode';
+    } else {
+        button.textContent = 'Switch to Dark Mode';
+    }
+}

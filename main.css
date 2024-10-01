@@ -71,3 +71,57 @@ canvas {
     border: 1px solid #ddd;
     margin-top: 20px;
 }
+
+/* Dark Mode Styles */
+.dark-mode {
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+}
+
+.dark-mode h1, .dark-mode h2, .dark-mode h3 {
+    color: #f0f0f0;
+}
+
+.dark-mode input[type="number"] {
+    background-color: #333;
+    color: #f0f0f0;
+    border: 1px solid #555;
+}
+
+.dark-mode input[type="number"]:focus {
+    border-color: #007BFF;
+}
+
+.dark-mode canvas {
+    border-color: #555;
+    background-color: #333;
+}
+
+.dark-mode #left, .dark-mode #right {
+    background-color: #2a2a2a; /* Change from white to light grey */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.dark-mode button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #f0f0f0;
+    color: #333;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+button:hover {
+    background-color: #ddd;
+}
