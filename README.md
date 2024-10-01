@@ -1,4 +1,4 @@
-Danish
+# Trekant-Beregner
 Trekant Beregner er et brugervenligt og effektivt værktøj, der hjælper dig med at beregne sider og vinkler i enhver trekant. 
 Ved blot at indtaste de kendte værdier (sider eller vinkler), vil appen beregne de resterende dimensioner og give en visuel fremstilling af trekanten. 
 Uanset om du er studerende, underviser eller blot interesseret i geometri, gør Trekant Beregner det nemt at løse komplekse trekantproblemer på få sekunder.
