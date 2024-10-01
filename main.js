@@ -257,13 +257,13 @@
         a[i] = toDegrees(a[i]);
     }
     //Find koordinaterne hvor værdierne skal skrives
-    ctx.fillText("A: " + a[1].toFixed(3), coords[0].x, coords[0].y);
-    ctx.fillText("A: " + a[2].toFixed(3), coords[1].x, coords[1].y);
     ctx.fillText("A: " + a[0].toFixed(3), coords[2].x, coords[2].y);
+    ctx.fillText("B: " + a[1].toFixed(3), coords[0].x, coords[0].y);
+    ctx.fillText("C: " + a[2].toFixed(3), coords[1].x, coords[1].y);
 
-    ctx.fillText("L: " + l[0].toFixed(3), (coords[0].x + coords[1].x) / 2, (coords[0].y + coords[1].y) / 2);
-    ctx.fillText("L: " + l[1].toFixed(3), (coords[1].x + coords[2].x) / 2, (coords[1].y + coords[2].y) / 2);
-    ctx.fillText("L: " + l[2].toFixed(3), (coords[2].x + coords[0].x) / 2, (coords[2].y + coords[0].y) / 2);
+    ctx.fillText("a: " + l[0].toFixed(3), (coords[0].x + coords[1].x) / 2, (coords[0].y + coords[1].y) / 2);
+    ctx.fillText("b: " + l[1].toFixed(3), (coords[1].x + coords[2].x) / 2, (coords[1].y + coords[2].y) / 2);
+    ctx.fillText("c: " + l[2].toFixed(3), (coords[2].x + coords[0].x) / 2, (coords[2].y + coords[0].y) / 2);
 
     for (var i = 0; i < 3; i++) { //Skriver værdierne i Outputs 
         outputForm.elements[i].value = l[i].toFixed(3);

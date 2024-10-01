@@ -6,45 +6,45 @@
 
 <head>
     <meta charset="utf-8" />
-    <title>Trekanter</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trekant Beregner</title>
 </head>
 
 <body>
-    <div id="wrapper">
+<div id="wrapper">
+    <h1>Trekant Beregner</h1>
+    <div id="input-wrapper">
         <div id="left">
-            <h1>Indtast værdier for trekant</h1>
-            <div>
-                <form id="LaengdeForm">
-                    <h1>Sider</h1>
-                    a<input type="number">
-                    b<input type="number">
-                    c<input type="number">
-                </form>
-                <form id="VinkelForm">
-                    <h1>Vinkler</h1>
-                    A<input type="number">
-                    B<input type="number">
-                    C<input type="number">
-                </form>
-            </div>
+            <h2>Indtast værdier for trekant</h2>
+            <form id="LaengdeForm">
+                <h3>Sider</h3>
+                <label for="a">a</label><input type="number" id="a">
+                <label for="b">b</label><input type="number" id="b">
+                <label for="c">c</label><input type="number" id="c">
+            </form>
+            <form id="VinkelForm">
+                <h3>Vinkler</h3>
+                <label for="A">A</label><input type="number" id="A">
+                <label for="B">B</label><input type="number" id="B">
+                <label for="C">C</label><input type="number" id="C">
+            </form>
         </div>
         <div id="right">
-            <h1>Resultat</h1>
-            <div>
-                <form id="outputForm">
-                    <h1>Sider</h1>
-                    a<input type="number" disabled>
-                    b<input type="number" disabled>
-                    c<input type="number" disabled>
-                    <h1>Vinkler</h1>
-                    A<input type="number" disabled>
-                    B<input type="number" disabled>
-                    C<input type="number" disabled>
-                </form>
-            </div>
+            <h2>Resultat</h2>
+            <form id="outputForm">
+                <h3>Sider</h3>
+                <label for="a_out">a</label><input type="number" id="a_out" disabled>
+                <label for="b_out">b</label><input type="number" id="b_out" disabled>
+                <label for="c_out">c</label><input type="number" id="c_out" disabled>
+                <h3>Vinkler</h3>
+                <label for="A_out">A</label><input type="number" id="A_out" disabled>
+                <label for="B_out">B</label><input type="number" id="B_out" disabled>
+                <label for="C_out">C</label><input type="number" id="C_out" disabled>
+            </form>
         </div>
-        <canvas id="canvas" width="1800" height="770"></canvas>
     </div>
-    <script>start()</script>
+    <canvas id="canvas" width="1800" height="770"></canvas>
+</div>
+<script>start()</script>
 </body>
 </html>
