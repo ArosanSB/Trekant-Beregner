@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<script src="main.js"></script>
+<link rel="stylesheet" type="text/css" href="main.css" />
+
+<html lang="da">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Trekanter</title>
+</head>
+
+<body>
+    <div id="wrapper">
+        <div id="left">
+            <h1>Indtast værdier for trekant</h1>
+            <div>
+                <form id="LaengdeForm">
+                    <h1>Sider</h1>
+                    a<input type="number">
+                    b<input type="number">
+                    c<input type="number">
+                </form>
+                <form id="VinkelForm">
+                    <h1>Vinkler</h1>
+                    A<input type="number">
+                    B<input type="number">
+                    C<input type="number">
+                </form>
+            </div>
+        </div>
+        <div id="right">
+            <h1>Resultat</h1>
+            <div>
+                <form id="outputForm">
+                    <h1>Sider</h1>
+                    a<input type="number" disabled>
+                    b<input type="number" disabled>
+                    c<input type="number" disabled>
+                    <h1>Vinkler</h1>
+                    A<input type="number" disabled>
+                    B<input type="number" disabled>
+                    C<input type="number" disabled>
+                </form>
+            </div>
+        </div>
+        <canvas id="canvas" width="1800" height="770"></canvas>
+    </div>
+    <script>start()</script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+body {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+h1, h2, h3, h4 {
+    font-family: Arial;
+}
+
+#right, #left {
+    float: left;
+}
+
+#right {
+    margin-left: 20%;
+}
